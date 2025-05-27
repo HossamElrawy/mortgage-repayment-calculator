@@ -1,0 +1,103 @@
+.result-div {
+    background-color: hsl(202, 55%, 16%);
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 76px;
+    padding: 47px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.results-para {
+    padding-top: 16px;
+}
+.complete-para {
+    color: hsl(203, 41%, 72%);
+    text-align: center;
+    font-weight: 500;
+}
+.results-para,
+.your-para {
+    color: white;
+    margin-bottom: 16px;
+    font-weight: 700;
+    width: fit-content;
+    font-size: 23px;
+}
+.your-para {
+    width: 100%;
+}
+.white-color {
+    color: hsl(203, 41%, 72%);
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.another-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.res-me {
+    width: 100%;
+    background-color: hsl(205, 71%, 12%);
+    border-top: 4px solid hsl(61, 70%, 52%);
+    border-radius: 10px;
+    padding: 28px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.monthly-para {
+    color: hsl(203, 41%, 72%);
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.res-1 {
+    color: hsl(61, 70%, 52%);
+    font-weight: 700;
+    border-bottom: 1px solid hsl(200, 26%, 54%);
+    padding-bottom: 30px;
+    margin-bottom: 26px;
+    font-size: 57px;
+}
+.total-para {
+    color: hsl(203, 41%, 72%);
+    font-weight: 500;
+}
+.res-2 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+@media (max-width : 800px) {
+    .result-div {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding: 32px 24px;
+    }
+    .complete-para {
+        font-size: 15px;
+    }
+    .res-me {
+        padding: 20px 16px;
+    }
+    .white-color {
+        margin-bottom: 16px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .monthly-para {
+        font-size: 16px;
+    }
+    
+    .res-1 {
+        font-size: 40px;
+        padding-bottom: 18px;
+        margin-bottom: 20px;
+    }
+}
